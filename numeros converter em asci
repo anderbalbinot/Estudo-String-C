@@ -1,0 +1,16 @@
+//este programa imprime os caracteres da tabela ascii correspondentes aos numeros
+//e tambem mostra que numeros inteiros podem ser convertidos em caracteres
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 0;
+    
+    
+    for(a=1;a<=256;a++){
+        printf("\n Caracter correspondente a '%i' eh %c",a, a);
+    }
+    
+    return 0;
+}
